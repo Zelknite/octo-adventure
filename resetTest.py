@@ -124,7 +124,7 @@ def loop1():
 
 		if failed:
 			failed = False
-			#continue
+			#continue -> should we say that if it fails, the testing stops all together?
 			break
 
 		end = time.time()
@@ -183,30 +183,147 @@ def loop1():
 			print("Test", i+1, "completed.")
 
 def loop2():
+	for i in range(0, reps, 1):
+		print("loop1: Test", i+1, "starting now...")
+		print("Waiting for the device to boot up...")
+		start = time.time()
+		toLogin()
+
+		if failed:
+			failed = False
+			#continue
+			break
+		end = time.time()
+		print("Device took", (end-start), "seconds to boot up.")
+		print("Running the test commands now")
 	pass
 
 def loop3():
+	for i in range(0, reps, 1):
+		print("loop1: Test", i+1, "starting now...")
+		print("Waiting for the device to boot up...")
+		start = time.time()
+		toLogin()
+
+		if failed:
+			failed = False
+			#continue
+			break
+		end = time.time()
+		print("Device took", (end-start), "seconds to boot up.")
+		print("Running the test commands now")
 	pass
 
-def lpop4():
+def loop4():
+	for i in range(0, reps, 1):
+		print("loop1: Test", i+1, "starting now...")
+		print("Waiting for the device to boot up...")
+		start = time.time()
+		toLogin()
+
+		if failed:
+			failed = False
+			#continue
+			break
+		end = time.time()
+		print("Device took", (end-start), "seconds to boot up.")
+		print("Running the test commands now")
 	pass
 
 def loop5():
+	for i in range(0, reps, 1):
+		print("loop1: Test", i+1, "starting now...")
+		print("Waiting for the device to boot up...")
+		start = time.time()
+		toLogin()
+
+		if failed:
+			failed = False
+			#continue
+			break
+		end = time.time()
+		print("Device took", (end-start), "seconds to boot up.")
+		print("Running the test commands now")
 	pass
 
 def loop6():
+	for i in range(0, reps, 1):
+		print("loop1: Test", i+1, "starting now...")
+		print("Waiting for the device to boot up...")
+		start = time.time()
+		toLogin()
+
+		if failed:
+			failed = False
+			#continue
+			break
+		end = time.time()
+		print("Device took", (end-start), "seconds to boot up.")
+		print("Running the test commands now")
 	pass
 
 def loop7():
+	for i in range(0, reps, 1):
+		print("loop1: Test", i+1, "starting now...")
+		print("Waiting for the device to boot up...")
+		start = time.time()
+		toLogin()
+
+		if failed:
+			failed = False
+			#continue
+			break
+		end = time.time()
+		print("Device took", (end-start), "seconds to boot up.")
+		print("Running the test commands now")
 	pass
 
 def loop8():
+	for i in range(0, reps, 1):
+		print("loop1: Test", i+1, "starting now...")
+		print("Waiting for the device to boot up...")
+		start = time.time()
+		toLogin()
+
+		if failed:
+			failed = False
+			#continue
+			break
+		end = time.time()
+		print("Device took", (end-start), "seconds to boot up.")
+		print("Running the test commands now")
 	pass
 
 def loop9():
+	for i in range(0, reps, 1):
+		print("loop1: Test", i+1, "starting now...")
+		print("Waiting for the device to boot up...")
+		start = time.time()
+		toLogin()
+
+		if failed:
+			failed = False
+			#continue
+			break
+		end = time.time()
+		print("Device took", (end-start), "seconds to boot up.")
+		print("Running the test commands now")
 	pass
 
 def loop10():
+	for i in range(0, reps, 1):
+		print("loop1: Test", i+1, "starting now...")
+		print("Waiting for the device to boot up...")
+		start = time.time()
+		toLogin()
+
+		if failed:
+			failed = False
+			#continue
+			break
+		end = time.time()
+		print("Device took", (end-start), "seconds to boot up.")
+		print("Running the test commands now")
 	pass
 
 def main():
